@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LL.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
