@@ -1,5 +1,8 @@
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
 
 /*
 	This header file is where the linked list will be implemented in
@@ -29,9 +32,21 @@ void* deleteAt(void* removeMe);
 
 
 
-void* search(void* findMe);
+bool search(void* findMe);
 
 void sort();
 
 void printList();
+
+//struct definition:
+
+struct Node {
+	void* data;
+	struct Node *next;
+	struct Node *prev;
+};
+
+void init();
+
+
 

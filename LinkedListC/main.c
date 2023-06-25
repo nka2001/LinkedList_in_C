@@ -10,7 +10,11 @@
 
 int main(int argc, char* argv[]) {
 
-	
+	init();
+	addFront("Hello this is node 1");
+
+	printList();
+
 
 
 }
